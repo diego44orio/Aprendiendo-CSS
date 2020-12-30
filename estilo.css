@@ -1,0 +1,46 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 100;
+    margin:0px;
+}
+
+.nav__responsive-ul{
+    display:none;
+}
+
+nav{
+    background-color:rgb(143, 0, 209);
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;   
+    color: #fff;
+
+}
+.nav__li:hover> a{
+    color:#bbb
+}
+.nav__li:hover{
+    color: #bbb;}
+
+.nav__li a{
+    color:#fff;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+.nav__li i {
+    width: 30px;
+    box-sizing: border-box;
+    text-align: right;
+    margin-right:7px;
+
+}
+@media only screen and (max-width:500px){
+    .nva__ul {
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: block;
+    }
+}
