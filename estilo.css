@@ -5,27 +5,15 @@
 .container {
     padding: 20px 5px;
     background:#86f;
+    width: 400px;
+    height: 600px;
+    margin: 40px;
+    background-image: url(https://www.wallpapertip.com/wmimgs/18-188908_under-the-night-of-the-milky-way-and.jpg);
+    background-size: 100%;
+    background-clip: no-repeat;
+    background-origin: content-box;
+    border: 10px solid transparent;
 }
- 
-.caja{
-    background: #025;
-    height: 80px;
-    width: 80px;
-    margin: 20px;
-    display: flex;
-    color: #fff;
-    transition: transform 1s;
-}
-
-.caja:hover{
-    transform: skew(30deg);
-}
-
-b{
-    margin:auto;
-    transform: skew(-30deg);
-}
-
 
 
 
