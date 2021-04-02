@@ -3,8 +3,8 @@
     font-weight: 100;
 }
 .container {
-    background: rgb(130, 96, 250);
     padding: 20px 5px;
+    background:#86f;
 }
  
 .caja{
@@ -12,28 +12,18 @@
     height: 80px;
     width: 80px;
     margin: 20px;
-    position: relative;
-    animation-name: desplazarse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: both;
-    animation-delay: 1s;
-    animation-timing-function: cubic-bezier(0.4, 0.23, 0.75, 1.51);
+    display: flex;
+    color: #fff;
+    transition: transform 1s;
 }
 
-@keyframes  desplazarse{
-    0%{
-        left: 0;
-        background:#025 ;
-    }
-    50%{
-    background: red;        
-    }
-    100% {
-        left:80%;
-        background: green;
-    }
+.caja:hover{
+    transform: skew(30deg);
+}
+
+b{
+    margin:auto;
+    transform: skew(-30deg);
 }
 
 
