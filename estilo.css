@@ -3,24 +3,30 @@
     font-weight: 100;
 }
 
-:root{
-    --color-rojo-claro:#f44;
-    --color-azul-claro: #66f;
-}
-
-div{
-    padding: 30px;
-    height: 150px;
-    width: 150px;
-    margin: 30px;
-}
-
 .container {
-    background: var(--color-rojo-claro);
+    filter: contrast(30);
+    background-color: #fff;
+
 }
 
-.container-2{
-    background:var(--color-azul-claro);
+.caja{
+    display:inline-block;
+    width:150px;
+    height: 150px;
+    background: red;
+    margin: 40px;
+    border-radius: 50%;
+    filter: blur(20px);
 }
 
-
+.caja:first-child{
+    animation: trasladar 1.6s alternate infinite;
+}
+@keyframes trasladar{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(160px);
+    }
+}
